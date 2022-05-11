@@ -37,17 +37,20 @@ nav {
 nav h1 {
     font-size: 24px;
     font-weight: 700;
+    color:#fff
 }
 
 nav a
 a, a: :hover {
     text-decoration: none;
     color: unset;
+
 }
 
 .dsmovie-contact-container {
     display: flex;
     align-items: center;
+    color: #fff;
 }
 
 .dsmovie-contact-container img {
