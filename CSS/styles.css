@@ -64,7 +64,9 @@ a, a: :hover {
 }
 
 .dsmovie-card {
-    width: 100%;
+    width: 360px;
+    height: 400px;
+    background-color: var(--white);
 }
 
 .dsmovie-card img {
