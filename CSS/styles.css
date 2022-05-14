@@ -43,8 +43,18 @@ nav h1 {
     color:#fff
 }
 
-nav a
-a, a: :hover {
+nav a {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+html,
+body {
+    background-color: var(--bg-gray);
+}
+
+a, 
+a: :hover {
     text-decoration: none;
     color: unset;
 }
@@ -59,19 +69,17 @@ a, a: :hover {
     margin-right: 10px;
 }
 
-#dsmovie-card-list {
-    padding: 0px 10px;
-}
-
 .dsmovie-card {
-    width: 360px;
-    height: 400px;
-    background-color: var(--white);
+    width: 100%;
 }
 
 .dsmovie-card img {
     width: 100%;
     border-radius: 8px 8px 0 0;
+}
+
+#dsmovie-card-list {
+    padding: 0px 10px;
 }
 
 .dsmovie-card-description {
@@ -86,9 +94,9 @@ a, a: :hover {
 }
 
 .dsmovie-card-description h3 {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -141,14 +149,14 @@ a, a: :hover {
     border-radius: 0 0 8px 8px;
 } 
 
-.dsmovie-form {
-    width: 100%;
-}
-
 .dsmovie-form-description h3 {
     font-size: 13px;
     font-weight: 700;
     margin-bottom: 20px;
+}
+
+.dsmovie-form {
+    width: 100%;
 }
 
 .dsmovie-form-group {
